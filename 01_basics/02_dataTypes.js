@@ -16,6 +16,12 @@ console.log(typeof BigInt); // function
 console.log(typeof largeNumber); //bigint
 console.log(typeof largest); //bigint
 
+
+console.log(typeof boolean); //undefined
+console.log(typeof Boolean); //function 
+
+
+
 /*
 Two type of dataTypes in JS
 1. primitive dataType( ssbbnnu)

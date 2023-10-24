@@ -56,3 +56,16 @@ const str3 = str1 + str2;
 // console.log("1"+2+2);//122
 // console.log(1+2+"3");//33
 // console.log(1+"2"+6);//126
+
+console.log(+true);
+console.log(+"");
+const value = 100;
+// console.log(++value);
+// console.log(value++);
+// console.log(value);
+
+
+let value2 = 100;
+// console.log(++value2);
+// console.log(value2++);
+// console.log(value2);

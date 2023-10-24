@@ -49,13 +49,13 @@ Feel free to use the code and explanations provided in this repository to learn 
 ## Contributing
 We welcome contributions from the community. If you'd like to contribute, please follow these guidelines:
 
-1.Fork the repository.
+- 1.Fork the repository.
 
-2.Create a new branch for your feature or bug fix.
+- 2.Create a new branch for your feature or bug fix.
 
-3.Make your changes and ensure the tests pass.
+- 3.Make your changes and ensure the tests pass.
 
-4.Submit a pull request.
+- 4.Submit a pull request.
 
   We appreciate your help in making this JavaScript series even better!
 

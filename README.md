@@ -37,6 +37,7 @@ To get started with this series, follow these steps:
    git clone https://github.com/shivam01netcom/javascript-new-series.git
 
 2. Navigate to the project directory:
+   ```bash
    cd javascript-new-series
 
 3.You may find each topic in its respective folder. Explore the topics you're interested in to access code examples and explanations.

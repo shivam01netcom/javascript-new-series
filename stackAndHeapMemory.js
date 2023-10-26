@@ -1,6 +1,7 @@
 //+++++++++++++++++++++++++++++++++++++++++
 
 //Stack(Primitive), Heap(Non Primitive)
+//stack me hme copy milta h, and heap me referance ka concept aata h 
 
 let email = "shivam@gmail.com";
 let updatedEmail = email;

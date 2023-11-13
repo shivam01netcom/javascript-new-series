@@ -69,4 +69,33 @@ console.log(Object.values(tinderUser));//[ '123er', 'dame', false ]
 
 console.log(Object.entries(tinderUser));//[ [ 'id', '123er' ], [ 'name', 'dame' ], [ 'isloggedIn', false ] ]
 
-console.log(tinderUser.hasOwnProperty("isloggedIn"))//true
+//console.log(tinderUser.hasOwnProperty("isloggedIn"))//true
+
+
+//object destructuring
+
+const course = {
+    coursename: "js course",
+    price:"888",
+    courseInstructor:"hitesh"
+}
+
+const {courseInstructor} = course;
+console.log(courseInstructor);
+
+const {courseInstructor: instructor} = course;
+console.log(instructor);
+
+const {coursename,price} = course;
+console.log(coursename);
+console.log(price);
+
+//json
+//json same hota h object ki tarh but isme object ka name nahi dete and isme keys ko bhi string me likhte h
+// {
+//     "name": "shivam",
+//     "courses": "json in js",
+//     "price": "999",
+// }
+
+//Note jab bhi api integrate karo phle use jsonformator me dal ke achche se dekh lo ki response kaisa aa raha 

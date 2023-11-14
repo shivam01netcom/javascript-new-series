@@ -23,3 +23,21 @@ function one(){
     two()
 }
 one();
+
+// ++++++++++ interesting +++++++++++
+
+console.log(addone(6));
+function addone(value){
+    return value+1;
+}
+
+console.log(addTwo(5));
+
+const addTwo = function(value){
+    return value + 2
+}
+
+
+
+
+

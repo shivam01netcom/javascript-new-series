@@ -10,4 +10,12 @@ if(userEmail){
 //false , 0 , -0, 0n , "" , null, undefined, NaN
 
 //truly value
-// [],true, aur sare values falsy values ko chorrkar
+// [],true,"0",'false'," ",{},function(){},aur sare values falsy values ko chorrkar
+
+
+
+const emptyObj = {}
+
+if(Object.keys(emptyObj).length===0){
+    console.log("check empty object"); 
+}
